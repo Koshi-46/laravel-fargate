@@ -10,14 +10,12 @@
 /src/public/mix-manifest.json
 /src/storage/*.key
 /src/vendor
-/src.env
-/src.env.backup
+/src/.env
 /src.phpunit.result.cache
-docker-compose.override.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/docker/db/
+db/*
