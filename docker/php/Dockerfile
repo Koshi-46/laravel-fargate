@@ -12,6 +12,7 @@ ENV TZ=Asia/Tokyo \
 COPY --from=composer:2.3 /usr/bin/composer /usr/bin/composer
 
 RUN apt-get update \
+  && apt-get upgrade \
   && apt-get -y install --no-install-recommends \
     locales \
     git \
